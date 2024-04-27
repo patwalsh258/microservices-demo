@@ -24,6 +24,7 @@ spec:
     metadata:
       labels:
         app: paymentservice
+        team: pat  
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
